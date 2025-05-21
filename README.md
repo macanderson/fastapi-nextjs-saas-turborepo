@@ -1,4 +1,8 @@
-# FastAPI/NextJS/Postgres + Prisma Turborepo
+# FastAPI/NextJS/Postgres + Prisma Turborepo for Multi-tenant SaaS AI Apps
+
+This template provides a modern, full-stack SaaS application boilerplate for multi-tenant AI apps built with FastAPI and Next.js, designed for rapid development and scalability. It combines the best practices of both Python and TypeScript ecosystems to create a robust, type-safe, and performant application.
+
+**Tech Stack:** FastAPI • Next.js • TypeScript • Python • PostgreSQL • Prisma • Docker • Turborepo
 
 <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin: 2rem 0; padding: 1rem; background: #f8f9fa; border-radius: 0.5rem;">
   <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" alt="FastAPI" style="height: 40px; object-fit: contain;"/>
@@ -14,8 +18,6 @@
   <img src="https://redis.com/wp-content/themes/wpx/assets/images/logo-redis.svg" alt="Redis" style="height: 40px; object-fit: contain;"/>
 </div>
 
-**Tech Stack:** FastAPI • Next.js • TypeScript • Python • PostgreSQL • Prisma • Docker • Turborepo
-
 <div style="text-align:center;margin: 20px auto;">
   <img
     style="background:white;margin: 0 auto;"
@@ -23,8 +25,6 @@
     alt="Repo logo"
     width="250"/>
 </div>
-
-This template provides a modern, full-stack SaaS application boilerplate built with FastAPI and Next.js, designed for rapid development and scalability. It combines the best practices of both Python and TypeScript ecosystems to create a robust, type-safe, and performant application.
 
 ## Key Features
 
