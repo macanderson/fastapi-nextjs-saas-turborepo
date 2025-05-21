@@ -1,5 +1,5 @@
 {
-  "name": "fastapi-nextjs-saas-turborepo",
+  "name": "monorepo",
   "private": true,
   "workspaces": [
     "apps/*",
@@ -12,6 +12,10 @@
     "test": "turbo run test"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "eslint": "^9.27.0",
+    "jiti": "^2.4.2",
     "turbo": "^1.12.0"
   }
 }
