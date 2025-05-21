@@ -1,11 +1,25 @@
 # FastAPI/NextJS/Postgres + Prisma Turborepo
 
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin: 2rem 0; padding: 1rem; background: #f8f9fa; border-radius: 0.5rem;">
+  <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" alt="FastAPI" style="height: 40px; object-fit: contain;"/>
+  <img src="https://assets.vercel.com/image/upload/v1662134459/nextjs/Icon_light_background.png" alt="Next.js" style="height: 40px; object-fit: contain;"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="TypeScript" style="height: 40px; object-fit: contain;"/>
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Actions" style="height: 40px; object-fit: contain;"/>
+  <img src="https://jestjs.io/img/jest.png" alt="Jest" style="height: 40px; object-fit: contain;"/>
+  <img src="https://www.python.org/static/community_logos/python-logo-generic.svg" alt="Python" style="height: 40px; object-fit: contain;"/>
+  <img src="https://www.postgresql.org/media/img/about/press/elephant.png" alt="PostgreSQL" style="height: 40px; object-fit: contain;"/>
+  <img src="https://prismalens.vercel.app/header/logo-dark.svg" alt="Prisma" style="height: 40px; object-fit: contain;"/>
+  <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Docker" style="height: 40px; object-fit: contain;"/>
+  <img src="https://turbo.build/images/favicon-dark/apple-touch-icon.png" alt="Turborepo" style="height: 40px; object-fit: contain;"/>
+  <img src="https://redis.com/wp-content/themes/wpx/assets/images/logo-redis.svg" alt="Redis" style="height: 40px; object-fit: contain;"/>
+</div>
+
 **Tech Stack:** FastAPI • Next.js • TypeScript • Python • PostgreSQL • Prisma • Docker • Turborepo
 
 <div style="text-align:center;margin: 20px auto;">
   <img
     style="background:white;margin: 0 auto;"
-    src="./extras/logo.png"
+    src="./extras/repo-logo.jpg"
     alt="Repo logo"
     width="240"/>
 </div>
