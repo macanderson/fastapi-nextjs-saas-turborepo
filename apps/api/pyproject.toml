@@ -13,5 +13,5 @@ passlib = {extras = ["bcrypt"], version = "^1.7.4"}
 sqlmodel = "^0.0.24"
 fastapi-jwt-auth = "^0.5.0"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev-dependencies]
 pytest = "^7.0"
