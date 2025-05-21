@@ -19,9 +19,9 @@
 <div style="text-align:center;margin: 20px auto;">
   <img
     style="background:white;margin: 0 auto;"
-    src="./extras/repo-logo.jpg"
+    src="./extras/logo.png"
     alt="Repo logo"
-    width="240"/>
+    width="250"/>
 </div>
 
 This template provides a modern, full-stack SaaS application boilerplate built with FastAPI and Next.js, designed for rapid development and scalability. It combines the best practices of both Python and TypeScript ecosystems to create a robust, type-safe, and performant application.
