@@ -2,8 +2,20 @@
 
 This template provides a modern, full-stack SaaS application boilerplate for multi-tenant AI apps built with FastAPI and Next.js, designed for rapid development and scalability. It combines the best practices of both Python and TypeScript ecosystems to create a robust, type-safe, and performant application.
 
-**Tech Stack:** FastAPI • Next.js • TypeScript • Python • PostgreSQL • Prisma • Docker • Turborepo
+## Support the Project
 
+If you find this template helpful, consider:
+
+- Starring the repository
+- Contributing to the codebase
+- Sharing with your network
+- Following for updates
+
+### Good projects have great scaffolding
+
+#### FastAPI • SQLModel • Next.js • TypeScript • Python • PostgreSQL via Supabase • Prisma ORM • Docker • Turborepo • Vercel Hosting • Supabase Auth (optional) • ZOD Schemas • Docker
+
+<!-- markdownlint-disable MD033 -->
 <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin: 2rem 0; padding: 1rem; background: #f8f9fa; border-radius: 0.5rem;">
   <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" alt="FastAPI" style="height: 40px; object-fit: contain;"/>
   <img src="https://assets.vercel.com/image/upload/v1662134459/nextjs/Icon_light_background.png" alt="Next.js" style="height: 40px; object-fit: contain;"/>
@@ -17,13 +29,9 @@ This template provides a modern, full-stack SaaS application boilerplate for mul
   <img src="https://turbo.build/images/favicon-dark/apple-touch-icon.png" alt="Turborepo" style="height: 40px; object-fit: contain;"/>
   <img src="https://redis.com/wp-content/themes/wpx/assets/images/logo-redis.svg" alt="Redis" style="height: 40px; object-fit: contain;"/>
 </div>
-
-<div style="text-align:center;margin: 20px auto;">
-  <img
-    style="background:white;margin: 0 auto;"
-    src="./extras/logo.png"
-    alt="Repo logo"
-    width="250"/>
+<!-- markdownlint-disable MD033 -->
+<div align="center">
+  <img src="./extras/logo.png" alt="Repo logo" width="250" style="background:white;"/>
 </div>
 
 ## Key Features
@@ -164,10 +172,6 @@ The project uses a comprehensive environment management system to handle differe
 - Encrypt sensitive values in production
 - Rotate credentials regularly
 
-### Vercel Deployment
-
-The frontend application is deployed on Vercel for optimal performance and scalability.
-
 #### Deployment Process
 
 1. **Automatic Deployments**
@@ -202,32 +206,19 @@ The frontend application is deployed on Vercel for optimal performance and scala
    - Analytics integration
    - Deployment logs
 
-#### Deployment Checklist
-
-- [ ] Configure environment variables
-- [ ] Set up custom domains
-- [ ] Enable HTTPS
-- [ ] Configure build settings
-- [ ] Set up monitoring
-- [ ] Test production build
-- [ ] Verify API endpoints
-- [ ] Check environment variables
-- [ ] Validate authentication
-- [ ] Test email functionality
-
 #### GitHub Actions and CI
 
 1. **Continuous Integration Pipeline**
 
-   - Automated testing on pull requests
+   - Automated e2e testing on pull requests
    - Branch protection rules
    - Code quality checks
    - Security scanning
 
 2. **Backend CI Workflow**
 
-   - Python 3.11 environment setup
-   - Poetry dependency management
+   - Python 3.12 environment setup
+   - Poetry dependency management for python backend
    - PostgreSQL 15 service container
    - Redis 7 service container
    - Pytest test execution
@@ -244,14 +235,11 @@ The frontend application is deployed on Vercel for optimal performance and scala
 
 4. **CI Configuration**
 
-   ```yaml
-   # Key CI Features
    - Automated testing
    - Service containers
    - Dependency caching
    - Parallel job execution
    - Artifact management
-   ```
 
 5. **Quality Gates**
 
@@ -261,51 +249,14 @@ The frontend application is deployed on Vercel for optimal performance and scala
    - Security scanning
    - Performance benchmarks
 
-6. **CI Best Practices**
-
-   - Fast feedback loops
-   - Cached dependencies
-   - Parallel test execution
-   - Automated deployments
-   - Environment parity
-   - Security scanning
-   - Code quality checks
-
-#### CI Checklist
-
-- [ ] Configure GitHub Actions workflows
-- [ ] Set up service containers
-- [ ] Configure test environments
-- [ ] Set up caching
-- [ ] Configure branch protection
-- [ ] Set up automated testing
-- [ ] Configure code coverage
-- [ ] Set up security scanning
-- [ ] Configure deployment automation
-- [ ] Set up monitoring and alerts
-
-## Author
+## Meet Mac Anderson
 
 This template was created by [Mac Anderson](https://macanderson.com), a full-stack developer specializing in AI/ML systems. With experience in building and scaling successful startups, Mac is dedicated to creating robust applications and sharing technical knowledge with the developer community.
 
-### Connect & Learn More
+### Connect with Mac
 
-- **Personal Blog & Portfolio**: [macanderson.com](https://macanderson.com) - Technical articles, project showcases, and development insights
-- **Code Writing Founders**: [02Beta.com](https://02beta.com) - A blog dedicated to helping founders write better code and build better products
-
-Feel free to reach out for:
-
-- Technical consulting
-- Code reviews
-- Project collaboration
-- Speaking engagements
-- Writing opportunities
-
-### Support the Project
-
-If you find this template helpful, consider:
-
-- Starring the repository
-- Contributing to the codebase
-- Sharing with your network
-- Following for updates
+- **Mac Anderson's LinkedIn**: [Mac Anderson's LinkedIn Profile](https://linkedin.com/in/macanderson)
+- **Mac Anderson's Devfolio & Personal Blog**: [macanderson.com](https://macanderson.com) - Technical articles, project showcases, and development insights
+- **02Beta.com**: [02Beta.com](https://02beta.com) - Resources for Engineer Entrepreneurs
+- **Follow me on X**: [Mac X Account](https://x.com/macandersoncto)
+- **Follow me on Instagram**: [Mac Instagram](https://instagram.com/macandersoncto)

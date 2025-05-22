@@ -146,12 +146,15 @@ jobs:
         working-directory: apps/api
 
       - name: Start frontend
-        run: nohup pnpm start &
+        run: |
+          export PORT=3000
+          export NODE_ENV=production
+          nohup pnpm start &
         working-directory: apps/web
 
       - name: Wait for services
         run: |
-          sleep 20
+          sleep 30
           curl -f http://localhost:8000/docs || exit 1
           curl -f http://localhost:3000 || exit 1
 
